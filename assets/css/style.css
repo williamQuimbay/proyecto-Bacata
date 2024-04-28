@@ -183,3 +183,8 @@ body{
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
 }
+
+.submenu__title:hover{
+    color: var(--color-primary);
+}
+
