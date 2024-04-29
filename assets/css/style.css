@@ -615,10 +615,12 @@ text-align: left;
     -ms-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
 }
+
 .service__more:hover,
 .service__title:hover{
     color: var(--color-primary);
 }
-.service__more:hover .service__more::before{
+
+.service__more:hover::before{
     background-color: var(--color-primary);
 }
