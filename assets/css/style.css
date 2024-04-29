@@ -528,14 +528,14 @@ text-align: left;
 .services__subtatle{
     font-size: 2rem;
     font-weight: 500;
-    color: var(--color-primary);
+    color: var(--color-text-body);
     margin-bottom: 1.5rem;
 }
 .services__title{
     font-size: 6.7rem;
     font-weight: 700;
     line-height: 1.2;
-    color: var(--color-text-body);
+    color: var(--color-primary);
 }
 .services__list{
     display: flex;
@@ -546,8 +546,9 @@ text-align: left;
     display: flex;
     flex-direction: row;
     width: 33%;
+    height: 100%;
     padding: 5rem 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 4rem; 
     background: linear-gradient(180deg,--color-bg-services,rgba(255,255,255,0) );
     background-color: var(--color-text);
     border: 1px solid;
@@ -577,6 +578,7 @@ text-align: left;
     flex: 4;
 }
 .service__title{
+    color: var(--color-text-body);
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 1.4;
@@ -623,4 +625,16 @@ text-align: left;
 
 .service__more:hover::before{
     background-color: var(--color-primary);
+}
+
+/* ? escalonado de las tajetas */
+
+.services__service--bottom{
+    margin-top: 20rem;
+}
+.services__service--middle{
+    margin-top: 10rem;
+}
+.services__service--top{
+    margin-top: 0rem;
 }
