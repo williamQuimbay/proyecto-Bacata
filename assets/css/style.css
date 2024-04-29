@@ -1,12 +1,16 @@
-/*!variables */
+/*? variables */
+
 :root{
+    --mx-width: 1320px;
     --color-text-body: #58595B;
     --color-primary:#b58c4d;
     --color-secondary: #142770;
     --color-text: #ffff;
     --color-bg-services: #f8f8f8;
+    --color-bg-proyects: #ecf2f6;
 }
-/* ! estilos generales */
+/* ? estilos generales */
+
 html{
     font-size: 10px ;
     overflow-x: hidden;
@@ -22,10 +26,10 @@ body{
 }
 .layout{
     width: 100%;
-    min-width: 1200px;
+    min-width: var(--mx-width);
     height: 100%;
 }
-/* !estilos nacvegaciopn y cabecera de la web */
+/* ? estilos nacvegaciopn y cabecera de la web */
 
 .layout__menu{
     width: 100%;
@@ -209,7 +213,7 @@ body{
     width: 100%;
 }
 
-/*! estillos banner principal  */
+/*? estillos banner principal  */
 
 .layout__banner{
     position: relative;
@@ -509,16 +513,17 @@ body{
 }
 }
 
-/* !estillos de servicios */
+/* ?estillos de servicios */
 .layout__services{
     position: relative;
     margin: 14rem 10rem;
+    margin-bottom: 4rem;
 
     z-index: 1;
 }
 
 .services__grip{
-    max-width: 1300px;
+    max-width: var(--mx-width);
     margin: 0 auto;
 
 }
@@ -527,13 +532,15 @@ body{
 text-align: left;
 }
 
-.services__subtatle{
+.services__subtatle,
+.projects__subtitlte{
     font-size: 2rem;
     font-weight: 500;
     color: var(--color-text-body);
     margin-bottom: 1.5rem;
 }
-.services__title{
+.services__title,
+.projects__title{
     font-size: 6.7rem;
     font-weight: 700;
     line-height: 1.2;
@@ -663,3 +670,124 @@ text-align: left;
 
 /* ? estilos de los proyectos */
 
+.layaut__projects{
+    position: relative;
+    background-color: var(--color-bg-services) ;
+    padding: 14rem 10rem;
+    z-index: 1;
+}
+.projects__grid{
+    max-width: var(--mx-width);
+    margin: 0 auto;   
+}
+.projects__header{
+    margin-bottom: 4rem;
+}
+
+.projects__categoies{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    margin-bottom: 5.5rem;
+}
+.categories__item{
+    position: relative;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.8rem 0;
+    transition: all 150ms ease-in-out;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+}
+.categories__item--active,
+.categories__item:hover{
+    border-bottom: 3px solid  var(--color-primary) ;
+}
+.projects__all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem 7rem;
+}
+
+.project__container--img{
+    width: 539px;
+    border-radius: 30px 30px 0 0;
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    overflow: hidden;
+}
+
+.project__img{
+    width: 100%;
+    transition: all 800ms ease-in-out;
+    -webkit-transition: all 800ms ease-in-out;
+    -moz-transition: all 800ms ease-in-out;
+    -ms-transition: all 800ms ease-in-out;
+    -o-transition: all 800ms ease-in-out;
+}
+
+.projects__project:hover .project__img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.project__content{
+    padding: 4rem 5rem;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border-radius: 0 0 30px 30px;
+    -webkit-border-radius: 0 0 30px 30px;
+    -moz-border-radius: 0 0 30px 30px;
+    -ms-border-radius: 0 0 30px 30px;
+    -o-border-radius: 0 0 30px 30px;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+
+.project__title{
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+.project__content:hover{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+.project__tangs{
+    font-size: 1.7rem;
+
+}
+
+.project-shapes__item{
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    top: 0px;
+}
+
+.project-shapes--shape1{
+    top: 3%;
+    right: 5%;
+}
+.project-shapes--shape2{
+    top: 2%;
+    right: 40%;
+}
+.project-shapes--shape3{
+    top: 16%;
+    right: 75%;
+}
