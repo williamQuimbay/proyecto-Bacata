@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -168,6 +167,36 @@
                                     alt="imagen 2">
                             </div>
                         </li>
+                        <!-- <li class="shapes__item shapes__item--shape3">
+                            <div class="shapes__container">
+                                <img class="shapes__img"
+                                    src="assets/img/bubble-16.png" alt="img3">
+                            </div>
+                        </li>
+                        <li class="shapes__item shapes__item--shape4">
+                            <div class="shapes__container">
+                                <img class="shapes__img"
+                                    src="assets/img/bubble-15.png" alt="img15">
+                            </div>
+                        </li>
+                        <li class="shapes__item shapes__item--shape5">
+                            <div class="shapes__container">
+                                <img class="shapes__img"
+                                    src="assets/img/bubble-14.png" alt="img14">
+                            </div>
+                        </li>
+                        <li class="shapes__item shapes__item--shape6">
+                            <div class="shapes__container">
+                                <img class="shapes__img"
+                                    src="assets/img/bubble-16.png" alt="img16">
+                            </div>
+                        </li>
+                        <li class="shapes__item shapes__item--shape7">
+                            <div class="shapes__container">
+                                <img class="shapes__img"
+                                    src="assets/img/bubble-26.png" alt="img26">
+                            </div>
+                        </li> -->
                     </ul>
                 </div>
             </section>
@@ -720,4 +749,5 @@
             </footer>
         </div>
     </body>
+
 </html>
