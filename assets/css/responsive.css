@@ -344,9 +344,22 @@
   }
 }
 @media (max-width: 640px) {
+  .layout {
+    min-width: 25%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .layout__banner {
-    margin: 0 1rem;
-    padding: 16rem 3rem;
+    min-height: 20rem;
+    margin: 0 0rem;
+    padding: 6rem 0rem;
+  }
+  .Banner__title {
+    font-size: 4rem;
+    margin-top: 0;
+  }
+  .banner__btn {
+    font-size: 1.5rem;
   }
   .shapes__item--shape2 {
     display: none;
@@ -363,26 +376,43 @@
     margin-left: 3rem;
     margin-right: 1rem;
   }
+  .services__service {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem 0.5rem;
+    margin-top: 1rem;
+  }
   .services__title,
   .projects__title,
-  .stats__title,
   .contact__title {
-    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+  .stats__title {
+    font-size: 3rem;
+  }
+  .stats__description {
+    font-size: 1.5rem;
+  }
+  .stats__progress {
+    gap: 0.5rem;
+  }
+  .stat__count {
+    font-size: 3rem;
   }
   .contact__thumb--chat {
-    margin-right: -36rem;
+    margin-right: -34rem;
     margin-top: -5rem;
+    width: 141%;
   }
   .contact__thumb--laptop {
     left: 0rem;
     bottom: 0;
+    width: 78%;
   }
   .contact__thumb--mobile {
     bottom: 0;
-    right: -21rem;
-  }
-  .contact__img {
-    width: 40%;
+    right: -17rem;
+    width: 78%;
   }
   .footer__widget--50 {
     flex-basis: auto;
@@ -390,6 +420,40 @@
   .footer__fright {
     flex-basis: 100%;
     gap: 3rem;
+  }
+  .footer__top {
+    padding-bottom: 1rem;
+  }
+  .fleft__group {
+    flex-direction: column;
+  }
+  .fleft__title {
+    font-size: 4.4rem;
+  }
+  .fleft__btn {
+    height: 5.2rem;
+    margin-top: 2rem;
+    padding: 1.4rem 3rem;
+    margin-left: -15rem;
+    font-size: 1.5rem;
+  }
+  .footer__fright {
+    flex-basis: 100%;
+    gap: 2rem;
+    padding-bottom: 0;
+  }
+  .widget__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 2rem;
+  }
+  .widget__link {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  .footer__bottom {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 375px) {
