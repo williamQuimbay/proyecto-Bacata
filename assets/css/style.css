@@ -1,7 +1,7 @@
 /*? variables */
 
 :root {
-  --mx-width: 1320px;
+  --mx-width: 1200px;
   --color-text-body: #58595b;
   --color-primary: #b58c4d;
   --color-secondary: #142770;
@@ -705,7 +705,7 @@ body {
   z-index: 1;
   overflow: hidden;
   padding: 0;
-  padding-top: 14\rem;
+  padding-top: 14rem;
   padding-bottom: 0;
   border-bottom: 1px solid var(--color-text-body);
 }
@@ -714,7 +714,7 @@ body {
   content: "";
   position: absolute;
   width: 100%;
-  height: 70rem;
+  height: 78rem;
   top: 0;
   left: 0;
   right: 0;
@@ -723,7 +723,7 @@ body {
 }
 .contact__conatainer {
   max-width: var(--mx-width);
-  margin: o auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 
