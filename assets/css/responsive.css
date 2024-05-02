@@ -99,6 +99,9 @@
   .footer__main {
     margin: 0 3.5rem;
   }
+  .menu-mobile {
+    display: none;
+  }
 }
 @media (max-width: 1000px) {
   .layout {
@@ -106,6 +109,9 @@
   }
   .navBar__nav {
     display: none;
+  }
+  .navbar__mobile-btn {
+    display: block;
   }
   .layout__banner {
     font-size: 5rem;

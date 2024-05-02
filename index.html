@@ -14,11 +14,139 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
 
         <!-- ! carga js -->
+        <script src="assets/js/menu-mobile.js"></script>
 
         <title>Graficas Bacata</title>
         <link rel="stylesheet" href="assets/fonts/dmsans/dmsans.css">
     </head>
     <body>
+        <!-- ?menu navegacion resposive -->
+        <div class="menu-mobile">
+            <header class="menu-mobile__header">
+                <div class="menu-mobile__container-logo">
+                    <a href="#" class="menu-mobile__link-logo">
+                        <img src="assets/img/logo1.png" alt="logo responsive"
+                            class="menu-mobile__logo">
+                    </a>
+                </div>
+                <button class="menu-mobile__close">
+                    <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+                </button>
+            </header>
+
+            <div class="menu-mobile__body">
+                <nav class="menu-mobile__nav">
+                    <ul class="menu-mobile__list">
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Inicio</a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">servicios
+                                <i
+                                    class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                            </a>
+                            <ul class="menu-mobile__submenu-mobile">
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Papelería
+                                        Comercial</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Tarjetería
+                                        Social</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Volantes
+                                        - Plegables</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Afiches -
+                                        Pendones</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Encuadernación</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Sellos de
+                                        cuacho</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Impresión
+                                        digital</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Diseño
+                                        Gráfico</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Portafolio
+                                <i
+                                    class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                            </a>
+                            <ul class="menu-mobile__submenu-mobile">
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Papelería
+                                        Comercial</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Tarjetería
+                                        Social</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Volantes
+                                        - Plegables</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Afiches -
+                                        Pendones
+                                        Comercial</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Encuadernación</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Sellos de
+                                        cuacho</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Impresiñon
+                                        digital</a>
+                                </li>
+                                <li class="submenu-mobile__item">
+                                    <a href="#"
+                                        class="submenu-mobile__link">Diseño
+                                        Gráfico</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Equipo</a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
         <div class="layout">
             <!--? menu -->
             <section class="layout__menu">
@@ -30,6 +158,15 @@
                             <img src="assets/img/logo.png" alt="logo"
                                 class="navbar__logo-light">
                         </a>
+                    </div>
+
+                    <!-- ?Boton de menu Resposive -->
+                    <div class="navbar__mobile-btn">
+                        <butto class="mobile-btn__wrap">
+                            <span class="mobile__btn-line"></span>
+                            <span class="mobile__btn-line"></span>
+                            <span class="mobile__btn-line"></span>
+                        </butto>
                     </div>
 
                     <!--* nevegacios -->
@@ -522,7 +659,7 @@
                         </h4>
                         <h2 class="contact__title">más que una buena
                             Impresión</h2>
-                        <a href="#" class="contac__btm">Pedir cotisación</a>
+                        <a href="#" class="contac__btm">Pedir cotización</a>
                     </header>
 
                     <div class="contact__images">
