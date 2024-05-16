@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     item.addEventListener("click", (event) => {
       let submenu = item.lastElementChild;
 
-      if (submenu.className === ".menu-mobile__submenu-mobile") {
+      if (submenu.className === "menu-mobile__submenu-mobile") {
         // console.log(submenu);
         if ((submenu.style.display = "block")) {
           submenu.style.display = "none";
