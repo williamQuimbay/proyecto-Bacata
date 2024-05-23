@@ -48,4 +48,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
       }
     });
   });
+  const found = document.querySelectorAll(".site-footer");
+
+  observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.intersectionRatio > 0) {
+        entry.target.classList.add("in-view");
+      } else {
+        entry.target.classList.remove("in-view");
+      }
+    });
+  });
+
+  found.forEach((find) => {
+    observer.observe(find);
+  });
 });
